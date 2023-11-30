@@ -1,1 +1,5 @@
 # Documentary
+
+The documentary class simplifies the management of documentary information in a library. It features attributes such as `_count` for total documentaries, `_code` for a unique code, `_title` for the title, and `_date` for the documentary date. Methods include initialization with title and date, retrieval and setting of code, title, and date, obtaining the total count, generating a string representation, and checking equality based on codes.
+
+The copy class, inheriting from the documentary class, adds attributes like `__number` for a unique copy number and `__purchase_date` for the purchase date. Methods include initialization with title, date, purchase date, and an optional number, retrieval and setting of the unique copy number and purchase date, generating a string representation with documentary information, and checking equality based on copy numbers. This program streamlines documentary information management, ensuring easy retrieval and modification of details within a library context.
